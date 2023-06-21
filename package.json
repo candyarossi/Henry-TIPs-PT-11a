@@ -1,0 +1,14 @@
+{
+  "name": "tips-pt",
+  "version": "1.0.0",
+  "description": "TIPs Part Time",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "Jorge Vega",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.4.1"
+  }
+}
