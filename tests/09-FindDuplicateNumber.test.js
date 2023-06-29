@@ -11,4 +11,8 @@ describe("FindDuplicateNumber", () => {
     expect(findDuplicateNumber(arr3)).toBe(2);
     expect(findDuplicateNumber(arr4)).toBe(2);
   });
+  it("Debe retornar false si no hay números repetidos", () => {
+    const arr1 = [1, 2, 3, 4, 5];
+    expect(findDuplicateNumber(arr1)).toBe(false);
+  });
 });
